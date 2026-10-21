@@ -7,10 +7,10 @@
 | sing-box (`Centella.app/Contents/MacOS/sing-box`) | 1.14.3 | GPL-3.0-or-later | https://github.com/SagerNet/sing-box/tree/v1.14.3 |
 | Xray-core (`Centella.app/Contents/MacOS/xray`) | 26.3.27 | MPL-2.0 | https://github.com/XTLS/Xray-core/tree/v26.3.27 |
 
-Оба бинарника собраны Homebrew из исходников, указанных выше, без изменений.
+Оба бинарника — официальные сборки этих версий с GitHub (darwin-arm64), без изменений; Centella проверяет их SHA-256 при сборке.
 
-Полный текст лицензий:
-- GPL-3.0: https://www.gnu.org/licenses/gpl-3.0.txt
-- MPL-2.0: https://www.mozilla.org/MPL/2.0/
+Кроме того, в Centella и её системный помощник встроены библиотеки Rust под разрешительными лицензиями (MIT, Apache-2.0, BSD, ISC, Unicode и др.).
+
+Полный список всех компонентов с текстами лицензий, включая полный текст GPL-3.0, лежит в приложении: `Centella.app/Contents/Resources/THIRD_PARTY_NOTICES.txt`, а также приложен к каждому релизу.
 
 Для sing-box по условиям GPL-3.0 соответствующий исходный код можно получить по ссылке выше. Если она перестанет работать, напишите в Issues этого репозитория, и копия исходного кода будет предоставлена.
